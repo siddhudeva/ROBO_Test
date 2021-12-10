@@ -9,7 +9,7 @@ STAT_CHUCK() {
   if [ $1 -ne 0 ] ; then
     echo -e "\e[1;31m This is not installed correctly check once again\e[0m"
     else
-      echo -e "\e[5;32 this is installed correctly\e[0m"
+      echo -e "\e[5;32mThis is installed correctly\e[0m"
       exit
  fi
              }
