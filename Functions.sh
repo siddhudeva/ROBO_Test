@@ -7,8 +7,8 @@
 #4, Functions
 
 function1 () {
-b=200
+echo value of b is ${b}
   echo the value of a=${a}
 }
 a=100
-echo value of b is ${b}
+b=200
