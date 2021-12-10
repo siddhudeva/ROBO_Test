@@ -35,3 +35,4 @@ Chec $?
 
 #enable the opeation
 systmctl enable nginx
+
