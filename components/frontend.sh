@@ -12,7 +12,7 @@ Chec() {
 fi
 }
 
- yum install nginx -y &>> /tmp/null
+ yum install nginx -y
 Chec $?
 
 #enable the opeation
