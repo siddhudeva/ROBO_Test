@@ -11,12 +11,12 @@ fi
 #validating for component mentioned or not
 
 COMPONENT=$1
-if [-z "$COMPONENT" ] ; then
+if [ -z "$COMPONENT" ] ; then
   echo -e "e[1;31m Please specify the Component name\e[0m"]
   exit
 fi
-# validating wether the mentioned name is valid or not
-if [ ! -e component/${COMPONENT}.sh ] ; then
+# validating weather the mentioned name is valid or not
+if [ ! -e components/${COMPONENT}.sh ] ; then
   echo -e "\e[1;31m this file doesn't exists.please check once\e[0m"
   exit
 fi
